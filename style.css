@@ -450,7 +450,10 @@ transition: all 0.3s ease;
 .contact .contact-content .info .sub-title{
   color:#333;
 }
-
+.contact .right .form .fields{
+  display: flex;
+  
+}
 
 
 /* responsive media query start */
