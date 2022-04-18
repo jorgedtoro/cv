@@ -420,7 +420,7 @@ transition: all 0.3s ease;
 .contact .contact-content .column{
   width: calc(50% -30px);
 }
-.contact .contact-content .left text{
+.contact .contact-content .left .text{
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
