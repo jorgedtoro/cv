@@ -22,7 +22,13 @@ $(document).ready(function () {
     $(".navbar .menu").toggleClass("active");
   });
   // typed animation script
-  var typed = new typed(".typing", {
+  var typed = new Typed(".typing", {
+    strings: ["Full Stack Developer", "Blogger", "Designer", "Freelancer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+  });
+  var typed = new Typed(".typing2", {
     strings: ["Full Stack Developer", "Blogger", "Designer", "Freelancer"],
     typeSpeed: 100,
     backSpeed: 60,
